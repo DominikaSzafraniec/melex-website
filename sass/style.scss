@@ -1,0 +1,29 @@
+@use './header' as * ;
+@use './nav' as * ;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Commissioner', sans-serif;
+font-family: 'Concert One', sans-serif;
+font-family: 'Crushed', sans-serif;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.active {
+  display: block;
+}
