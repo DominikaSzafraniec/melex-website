@@ -9,14 +9,20 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .nav__btn {
   padding: 0.5em;
-  font-size: 2rem;
+  font-size: 2.4rem;
   border: none;
   cursor: pointer;
   background: none;
   z-index: 1000;
+}
+.nav__logo {
+  width: 30%;
 }
 .nav__box {
   position: absolute;
@@ -45,7 +51,7 @@
   height: 100%;
   list-style: none;
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 2.6rem;
 }
 .nav__item {
   margin-bottom: 1em;
@@ -60,9 +66,77 @@
   cursor: pointer;
 }
 .nav__logo-link img {
-  width: 40%;
+  width: 100%;
 }
 
+@media (min-width: 413px) {
+  .nav__btn {
+    font-size: 2.8rem;
+  }
+  .nav__item {
+    font-size: 3rem;
+  }
+  .nav__logo-link {
+    cursor: pointer;
+  }
+  .nav__logo-link img {
+    width: 70%;
+  }
+}
+@media (min-width: 768px) {
+  .nav {
+    padding: 1.5em 3em;
+  }
+  .nav__btn {
+    font-size: 3.8rem;
+  }
+  .nav__item {
+    font-size: 4.2rem;
+  }
+  .nav__logo-link {
+    cursor: pointer;
+  }
+  .nav__logo-link img {
+    width: 55%;
+  }
+}
+@media (min-width: 992px) {
+  .nav {
+    padding: 2em 4em;
+  }
+  .nav .wrapper {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .nav__btn {
+    display: none;
+  }
+  .nav__box {
+    position: static;
+    display: block;
+    height: auto;
+    background: none;
+  }
+  .nav__logo-link {
+    cursor: pointer;
+  }
+  .nav__logo-link img {
+    width: 45%;
+  }
+  .nav__items {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 3rem;
+  }
+  .nav__item {
+    margin-bottom: 0;
+    padding: 0.5em;
+    font-size: 3.4rem;
+  }
+}
 * {
   margin: 0;
   padding: 0;

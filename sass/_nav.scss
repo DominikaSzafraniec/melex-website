@@ -5,15 +5,20 @@
   .wrapper {
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
 
   &__btn {
     padding: 0.5em;
-    font-size: 2rem;
+    font-size: 2.4rem;
     border: none;
     cursor: pointer;
     background: none;
     z-index: 1000;
+  }
+
+  &__logo {
+    width: 30%;
   }
 
   &__box {
@@ -35,7 +40,7 @@
     height: 100%;
     list-style: none;
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 2.6rem;
   }
 
   &__item {
@@ -51,7 +56,7 @@
   &__logo-link {
     cursor: pointer;
     img {
-      width: 40%;
+      width: 100%;
     }
   }
 
