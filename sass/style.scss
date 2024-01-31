@@ -1,6 +1,7 @@
 @use './header' as * ;
 @use './nav' as * ;
 @use './media' as *;
+@use './animations' as *;
 
 * {
   margin: 0;
@@ -15,8 +16,6 @@ html {
 
 body {
   font-family: 'Commissioner', sans-serif;
-font-family: 'Concert One', sans-serif;
-font-family: 'Crushed', sans-serif;
 }
 
 .wrapper {
