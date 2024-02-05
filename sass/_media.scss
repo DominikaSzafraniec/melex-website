@@ -1,3 +1,10 @@
+@media (min-width: 374px) {
+  .header {
+    margin-top: 8rem;
+  }
+}
+
+
 @media (min-width: 413px) {
   .nav {
 
@@ -16,6 +23,12 @@
       }
     }
 
+  }
+
+  .header {
+    .wrapper {
+      padding: 2em;
+    }
   }
 
 }
@@ -42,6 +55,11 @@
   }
 
   .header {
+    margin-top: 10rem;
+
+    .wrapper {
+      padding: 0 5em;
+    }
     &__box-title {
       font-size: 3.8rem;
     }
@@ -99,11 +117,12 @@
   }
 
   .header {
+    margin-top: 12rem;
 
     &__box {
       position: relative;
       padding: 10rem 4rem;
-      background-image: url('../img/thumb-article-1470-tmain.jpg');
+      background-image: url('../img/header.jpg');
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;

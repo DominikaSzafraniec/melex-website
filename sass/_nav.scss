@@ -1,6 +1,10 @@
 .nav {
-  position: relative;
+  position: fixed;
+  width: 100%;
+  top: 0;
   padding: 1.5em;
+  background-color: #fff;
+  z-index: 999;
 
   .wrapper {
     display: flex;
