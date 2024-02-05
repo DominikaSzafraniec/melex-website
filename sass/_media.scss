@@ -6,6 +6,8 @@
 
 
 @media (min-width: 413px) {
+
+
   .nav {
 
     &__btn {
@@ -31,6 +33,26 @@
     }
   }
 
+  .about {
+    &__img {
+      height: 120px;
+    }
+
+    &__box-text {
+      padding: 1.5em 2.5em;
+      font-size: 1.4rem;
+    }
+  }
+
+}
+
+@media (min-width: 670px) {
+  .about {
+    &__img {
+      height: 140px;
+    }
+  }
+  
 }
 
 @media (min-width: 768px) {
@@ -74,11 +96,22 @@
       height: 300px;
     }
   }
+
+  .about {
+    &__img {
+      height: 160px;
+    }
+
+    &__box-text {
+      padding: 2em;
+      font-size: 1.6rem;
+    }
+  }
 }
 
 @media (min-width: 992px) {
   .nav {
-    padding: 4em 4em 3em 4em;
+    padding: 3em 4em 3em 4em;
 
     .wrapper {
       align-items: center;
@@ -168,6 +201,32 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 17%, rgba(0,0,0,0.6278886554621
       }
     }
   }
+
+  .about {
+    padding: 7em 0;
+
+    &__img {
+      height: 500px;
+    }
+    &__box {
+      flex-direction: row;
+    }
+
+    &__box-img {
+      width: 50%;
+    }
+
+    &__box-text {
+      width: 50%;
+      padding: 6em 2em;
+      line-height: 1.4;
+      font-size: 1.8rem;
+    }
+
+    &__box-text-info {
+      max-width: 600px;
+    }
+  }
 }
 
 @media (min-width: 1200px) {
@@ -198,5 +257,9 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 17%, rgba(0,0,0,0.6278886554621
     &__item {
       font-size: 2rem;
     }
+  }
+
+  .header {
+    margin-top: 6rem;
   }
 }
