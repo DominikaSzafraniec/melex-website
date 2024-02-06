@@ -74,6 +74,11 @@ body {
   }
 
   .sub-title {
+    margin-bottom: 0;
     font-size: 4.4rem;
+  }
+
+  .sub-text, .sub-title {
+    text-align: left;
   }
 }
