@@ -1,18 +1,18 @@
 .about {
-  padding: 2em 1em 5em 1em;
+  padding: 4em 1em;
+  background-color: #f5f5f5;
+  overflow: hidden;
 
   .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
 
-  &__titles, &__img-box, &__box-text {
+  &__titles,
+  &__img-box,
+  &__box-text {
     grid-column: 1/-1;
   }
-
-
-
-
 
   &__img {
     width: 100%;
@@ -23,13 +23,16 @@
   &__box-text {
     margin: 0 1em;
     padding: 1em;
-    background-color: #F6F6F6;
     font-size: 1.2rem;
-    color: #333;
+    color: #fff;
+    background-color: #333;
 
     -webkit-box-shadow: 1px 12px 12px -18px rgba(66, 68, 90, 1);
     -moz-box-shadow: 1px 12px 12px -18px rgba(66, 68, 90, 1);
     box-shadow: 1px 12px 12px -18px rgba(66, 68, 90, 1);
   }
 
+  &__img-desktop {
+    display: none;
+  }
 }

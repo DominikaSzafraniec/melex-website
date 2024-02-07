@@ -1,6 +1,11 @@
 .header {
   margin-top: 6rem;
   padding: 3em 1em;
+
+  &__link {
+    text-decoration: none;
+    color: #000;
+  }
   &__box {
     max-width: 1400px;
     width: 100%;

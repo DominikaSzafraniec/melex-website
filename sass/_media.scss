@@ -2,14 +2,14 @@
   .header {
     margin-top: 8rem;
   }
+
+  .offers {
+    padding: 4em;
+  }
 }
 
-
 @media (min-width: 413px) {
-
-
   .nav {
-
     &__btn {
       font-size: 2.8rem;
     }
@@ -24,7 +24,6 @@
         width: 70%;
       }
     }
-
   }
 
   .header {
@@ -43,7 +42,6 @@
       font-size: 1.4rem;
     }
   }
-
 }
 
 @media (min-width: 565px) {
@@ -60,12 +58,10 @@
       height: 140px;
     }
   }
-  
 }
 
 @media (min-width: 768px) {
   .nav {
-
     padding: 1.5em 3em;
     &__btn {
       font-size: 3.8rem;
@@ -81,7 +77,6 @@
         width: 55%;
       }
     }
-
   }
 
   .header {
@@ -119,16 +114,14 @@
 
 @media (min-width: 992px) {
   .nav {
-    padding: 3em 4em 3em 4em;
+    padding: 2em 4em 2em 4em;
 
     .wrapper {
       align-items: center;
-      
     }
     &__btn {
       display: none;
     }
-
 
     &__box {
       position: static;
@@ -147,23 +140,22 @@
     &__items {
       flex-direction: row;
       gap: 3rem;
-      
     }
 
     &__item {
       margin-bottom: 0;
-      
+
       font-size: 3.4rem;
     }
   }
 
   .header {
-    margin-top: 12rem;
+    margin-top: 10rem;
 
     &__box {
       position: relative;
       padding: 12rem 4rem;
-      background-image: url('../img/header.jpg');
+      background-image: url("../img/header.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -177,8 +169,14 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 17%, rgba(0,0,0,0.6278886554621849) 52%, rgba(255,255,255,0) 100%, rgba(0,0,0,0.8407649253731343) 100%);
+      background: rgb(0, 0, 0);
+      background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 1) 17%,
+        rgba(0, 0, 0, 0.6278886554621849) 52%,
+        rgba(255, 255, 255, 0) 100%,
+        rgba(0, 0, 0, 0.8407649253731343) 100%
+      );
       z-index: -1;
     }
 
@@ -202,7 +200,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 17%, rgba(0,0,0,0.6278886554621
     &__box-btn-contact {
       padding: 0.5em 2.5em;
       font-size: 2rem;
-      transition: border .3s;
+      transition: border 0.3s;
 
       &:hover {
         border: 1px solid #333;
@@ -211,14 +209,23 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 17%, rgba(0,0,0,0.6278886554621
   }
 
   .about {
-    padding: 10em 1em;
+    margin-top: 3em;
+    padding: 5em 1em;
+
+    &__img-mobile {
+      display: none;
+    }
+    &__img-desktop {
+      display: block;
+    }
+
     .wrapper {
-      grid-template-rows: repeat(7, 1fr);
+      grid-template-rows: repeat(7, 100px);
     }
 
     &__titles {
       grid-column: 2/4;
-      grid-row: 1/2;
+      grid-row: 2/3;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -233,32 +240,27 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 17%, rgba(0,0,0,0.6278886554621
     &__img {
       height: 100%;
       object-fit: cover;
-      object-position: 80%;
     }
 
     &__box-text {
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: 3em;
       grid-column: 2/4;
-      grid-row: 3/7;
+      grid-row: 4/6;
+      padding-left: 5.4rem;
     }
-
 
     &__box-text {
       margin: 0;
-      line-height: 1.7;
-      font-size: 2.2rem;
+      line-height: 1.5;
+      font-size: 1.8rem;
     }
   }
-
-  
 }
 
 @media (min-width: 1200px) {
   .header {
-
     &__box-title {
       font-size: 6.4rem;
     }
@@ -272,11 +274,31 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 17%, rgba(0,0,0,0.6278886554621
     &__img-box {
       background-position: center;
     }
+
+    &__box-text {
+      position: relative;
+      padding: 15rem;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: -125%;
+        background-color: #333;
+        height: 100%;
+        width: 1000px;
+      }
+    }
+
+    &__img-box {
+      grid-row: 1/9;
+    }
+
+    &__titles {
+      padding-left: 15em;
+    }
   }
-  
 }
-
-
 
 @media (orientation: landscape) and (max-height: 434px) {
   .nav {

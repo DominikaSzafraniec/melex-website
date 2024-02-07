@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Orange City - Zwiedzanie Meleksem</title>
+
+  <script src="https://kit.fontawesome.com/efa4de02fb.js" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/efa4de02fb.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,10 +27,10 @@
       
       <div class="nav__box">
         <ul class="nav__items">
-          <li class="nav__item">o nas</li>
-          <li class="nav__item">oferta</li>
-          <li class="nav__item">galeria</li>
-          <li class="nav__item nav__item--color">kontakt</li>
+          <li class="nav__item"><a class="nav__link" href="#about">o nas</a></li>
+          <li class="nav__item"><a class="nav__link" href="#offer">oferta</a></li>
+          <li class="nav__item"><a class="nav__link" href="#gallery">galeria</a></li>
+          <li class="nav__item nav__item--last"><a class="nav__link nav__link--color" href="#contact">kontakt</a></li>
         </ul>
       </div>
 
@@ -46,7 +48,7 @@
         <p class="header__box-text">
           W trakcie meleksowych wycieczek po Zamościu odkrywasz uroki miasta i zabytki, relaksując się podczas niezwykłego przejazdu.
         </p>
-        <button class="header__box-btn-contact">kontakt</button>
+        <button class="header__box-btn-contact"><a class="header__link" href="#contact">kontakt</a></button>
       </div>
   </div>
 
@@ -59,7 +61,7 @@
   </header>
 
   <main>
-    <section class="about">
+    <section class="about" id="about">
 
       <div class="wrapper">
 
@@ -69,7 +71,9 @@
         </div>
 
       <div class="about__img-box">
-        <img class="about__img" src="./img/section1(1).jpg" alt="zdjęcie przedstawiające pomarańczowego meleksa">
+        <img class="about__img about__img-mobile" src="./img/section1(1).jpg" alt="zdjęcie przedstawiające pomarańczowego meleksa">
+        <img class="about__img about__img-desktop" src="./img/about.jpg" alt="zdjęcie przedstawiające pomarańczowego meleksa">
+
       </div>
 
           <div class="about__box-text">
@@ -79,6 +83,50 @@
 
     </div>
       
+
+    </section>
+
+    <section class="offers" id="offer">
+      <div class="wrapper">
+        <h3 class="sub-text">oferta</h3>
+        <h2 class="sub-title">sprawdź nasze trasy</h2>
+
+        <div class="offers__boxes">
+
+          <div class="offers__box offers__box-one">
+            <p class="offers__title">trasa 25min</p>
+            <p class="offers__price">40zł/os</p>
+            <p class="offers__info">Podczas 25-minutowej trasy meleksami zanurzysz się w fascynującą podróż przez najważniejsze atrakcje miasta, czerpiąc radość z szybkiego i wygodnego zwiedzania.</p>
+
+            <p class="offers__icon">
+              <a href="" class="offers__link"><i class="fa-solid fa-angle-down"></i></a>
+            </p>
+            <div class="offers__shadow"></div>
+          </div>
+          <div class="offers__box offers__box-two">
+            <p class="offers__title">trasa 45min</p>
+            <p class="offers__price">35zł/os</p>
+            <p class="offers__info">Podczas 45-minutowej trasy meleksami zanurzysz się w fascynującą podróż przez najważniejsze atrakcje miasta, czerpiąc radość z szybkiego i wygodnego zwiedzania.</p>
+
+            <p class="offers__icon">
+              <a href="" class="offers__link"><i class="fa-solid fa-angle-down"></i></a>
+            </p>
+            <div class="offers__shadow"></div>
+          </div>
+          <div class="offers__box offers__box-three">
+            <p class="offers__title">trasa 60min</p>
+            <p class="offers__price">30zł/os</p>
+            <p class="offers__info">Podczas 60-minutowej trasy meleksami zanurzysz się w fascynującą podróż przez najważniejsze atrakcje miasta, czerpiąc radość z szybkiego i wygodnego zwiedzania.</p>
+
+            <p class="offers__icon">
+              <a href="" class="offers__link"><i class="fa-solid fa-angle-down"></i></a>
+              
+            </p>
+            <div class="offers__shadow"></div>
+          </div>
+
+        </div>
+      </div>
 
     </section>
   </main>
