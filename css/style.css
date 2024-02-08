@@ -273,18 +273,30 @@
   color: #000;
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 1.2rem;
 }
 .offers__info {
   font-size: 1.2rem;
 }
 .offers__icon {
+  position: relative;
   margin-top: 0.5em;
   -ms-flex-item-align: center;
       align-self: center;
   font-size: 2.4rem;
+  -webkit-transition: scale 1s;
+  transition: scale 1s;
+}
+.offers__icon:hover {
+  scale: 1.4;
 }
 .offers__link {
   color: #e89e2f;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+}
+.offers__link:hover {
+  color: #fff;
 }
 
 @-webkit-keyframes pulse {
@@ -343,15 +355,38 @@
     padding: 1.5em 2.5em;
     font-size: 1.4rem;
   }
+  .offers__boxes {
+    padding: 0 2.5em;
+  }
 }
 @media (min-width: 565px) {
   .header__box-img {
     height: 200px;
   }
+  .offers__boxes {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-column-gap: 1em;
+       -moz-column-gap: 1em;
+            column-gap: 1em;
+  }
+  .offers__box {
+    width: 48%;
+  }
 }
 @media (min-width: 670px) {
   .about__img {
     height: 140px;
+  }
+  .offers__box {
+    height: 450px;
   }
 }
 @media (min-width: 768px) {
@@ -393,6 +428,15 @@
   .about__box-text {
     padding: 2em;
     font-size: 1.6rem;
+  }
+  .offers__title {
+    font-size: 2.2rem;
+  }
+  .offers__price, .offers__info {
+    font-size: 1.4rem;
+  }
+  .offers__icon {
+    font-size: 2.8rem;
   }
 }
 @media (min-width: 992px) {
@@ -532,6 +576,23 @@
     line-height: 1.5;
     font-size: 1.8rem;
   }
+  .offers__boxes {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-column-gap: 1em;
+       -moz-column-gap: 1em;
+            column-gap: 1em;
+  }
+  .offers__box {
+    width: 32%;
+  }
 }
 @media (min-width: 1200px) {
   .header__box-title {
@@ -561,6 +622,18 @@
   }
   .about__titles {
     padding-left: 15em;
+  }
+  .offers__box {
+    height: 550px;
+  }
+  .offers__title {
+    font-size: 2.6rem;
+  }
+  .offers__price, .offers__info {
+    font-size: 1.6rem;
+  }
+  .offers__icon {
+    font-size: 3.2rem;
   }
 }
 @media (orientation: landscape) and (max-height: 434px) {

@@ -66,6 +66,7 @@
     color: #000;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 1.2rem;
   }
 
   &__info {
@@ -73,12 +74,23 @@
   }
 
   &__icon {
+    position: relative;
     margin-top: .5em;
     align-self: center;
     font-size: 2.4rem;
+    transition: scale 1s;
+
+    &:hover {
+      scale: 1.4;
+    }
   }
 
   &__link {
     color: #e89e2f;
+    transition: color 1s;
+
+    &:hover {
+      color: #fff;
+    }
   }
 }

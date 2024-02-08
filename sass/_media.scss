@@ -42,12 +42,31 @@
       font-size: 1.4rem;
     }
   }
+
+  .offers {
+    &__boxes {
+      padding: 0 2.5em;
+    }
+  }
 }
 
 @media (min-width: 565px) {
   .header {
     &__box-img {
       height: 200px;
+    }
+  }
+
+  .offers {
+    &__boxes {
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      column-gap: 1em;
+    }
+
+    &__box {
+      width: 48%;
     }
   }
 }
@@ -57,8 +76,15 @@
     &__img {
       height: 140px;
     }
+}
+
+.offers {
+  &__box {
+    height: 450px;
   }
 }
+}
+
 
 @media (min-width: 768px) {
   .nav {
@@ -110,6 +136,21 @@
       font-size: 1.6rem;
     }
   }
+
+  .offers {
+    &__title {
+      font-size: 2.2rem;
+    }
+
+    &__price, &__info {
+      font-size: 1.4rem;
+    }
+
+    &__icon {
+      font-size: 2.8rem;
+    }
+  }
+
 }
 
 @media (min-width: 992px) {
@@ -257,6 +298,19 @@
       font-size: 1.8rem;
     }
   }
+
+  .offers {
+    &__boxes {
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      column-gap: 1em;
+    }
+
+    &__box {
+      width: 32%;
+    }
+  }
 }
 
 @media (min-width: 1200px) {
@@ -296,6 +350,24 @@
 
     &__titles {
       padding-left: 15em;
+    }
+  }
+
+  .offers {
+    &__box {
+      height: 550px;
+    }
+
+    &__title {
+      font-size: 2.6rem;
+    }
+
+    &__price, &__info {
+      font-size: 1.6rem;
+    }
+
+    &__icon {
+      font-size: 3.2rem;
     }
   }
 }
