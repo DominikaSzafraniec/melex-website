@@ -2,6 +2,9 @@
 @use './nav' as * ;
 @use './about' as *;
 @use './offers' as *;
+@use './gallery' as *;
+@use './contact' as *;
+@use './footer' as *;
 @use './animations' as *;
 @use './media' as *;
 
@@ -14,6 +17,8 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 82px;
 }
 
 body {
@@ -46,7 +51,8 @@ body {
   margin-bottom: 2em;
   text-transform: uppercase;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 
@@ -76,10 +82,17 @@ body {
 
   .sub-title {
     margin-bottom: 0;
-    font-size: 4.4rem;
+    font-size: 5rem;
   }
 
   .sub-text, .sub-title {
     text-align: left;
   }
 }
+
+
+
+
+// TODO
+
+// * cards in section offers should be links to page offers, with particular id.
