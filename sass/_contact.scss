@@ -1,7 +1,6 @@
 .contact {
   position: relative;
   padding: 6em 2em;
-  // background-image: url('../img/contact.jpg');
   background-image: url('../img/contact-img.jpg');
   background-size: cover;
   background-position: 70%;
@@ -26,14 +25,14 @@
   }
 
   &__title {
-    margin-bottom: .25em;
+    margin-bottom: .5em;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 
   &__info {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 
   &__info-box {
