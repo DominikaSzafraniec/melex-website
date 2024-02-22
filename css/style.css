@@ -9,7 +9,7 @@
   height: 100%;
 }
 .header__box {
-  max-width: 1400px;
+  max-width: 1600px;
   width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -787,7 +787,7 @@
     content: "";
     position: absolute;
     top: 0;
-    right: -124%;
+    right: -104%;
     background-color: #333;
     height: 100%;
     width: 1000px;
@@ -842,7 +842,7 @@ body {
 }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 1400px;
   width: 100%;
   margin: 0 auto;
 }
