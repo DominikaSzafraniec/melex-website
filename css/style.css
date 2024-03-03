@@ -25,7 +25,7 @@
   font-size: 1.6rem;
 }
 .header__box-btn-contact {
-  padding: 0.5em 1em;
+  padding: 0.5em 2em;
   font-family: "Concert One", sans-serif;
   font-size: 1.8rem;
   text-transform: uppercase;
@@ -34,6 +34,7 @@
   -webkit-transition: border 0.3s, background-color 0.3s;
   transition: border 0.3s, background-color 0.3s;
   cursor: pointer;
+  z-index: 1;
 }
 .header__box-btn-contact:hover {
   border: 1px solid #F08516;
@@ -594,7 +595,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    gap: 3rem;
+    gap: 1.6rem;
   }
   .nav__item {
     margin-bottom: 0;
@@ -606,7 +607,7 @@
   .header__box {
     position: relative;
     padding: 12rem 4rem;
-    background-image: url("../img/header.jpg");
+    background-image: url("../img/header-big.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -858,7 +859,7 @@ body {
 }
 
 .sub-text {
-  color: #F08516;
+  color: #ac5f0d;
   font-family: "Concert One";
   text-transform: uppercase;
   text-align: center;

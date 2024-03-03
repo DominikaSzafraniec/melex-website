@@ -28,7 +28,7 @@
   }
 
   &__box-btn-contact {
-    padding: 0.5em 1em;
+    padding: 0.5em 2em;
     font-family: 'Concert One', sans-serif;
     font-size: 1.8rem;
     text-transform: uppercase;
@@ -36,6 +36,7 @@
     background-color:  #F08516;
     transition: border .3s, background-color .3s;
     cursor: pointer;
+    z-index: 1;
 
     &:hover {
       border: 1px solid #F08516;

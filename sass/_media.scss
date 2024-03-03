@@ -229,7 +229,7 @@
 
     &__items {
       flex-direction: row;
-      gap: 3rem;
+      gap: 1.6rem;
     }
 
     &__item {
@@ -245,7 +245,7 @@
     &__box {
       position: relative;
       padding: 12rem 4rem;
-      background-image: url("../img/header.jpg");
+      background-image: url("../img/header-big.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
