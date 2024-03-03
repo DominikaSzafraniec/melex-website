@@ -35,11 +35,11 @@
   }
 
   &__box-btn-contact {
+    font-family: 'Commissioner', sans-serif;
     border: 1px solid transparent;
     transition: border 0.3s, background-color 0.3s;
     cursor: pointer;
     background-color: #f08516;
-    z-index: 20;
     font-weight: bold;
 
     &--link {
