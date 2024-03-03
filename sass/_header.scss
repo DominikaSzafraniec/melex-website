@@ -9,6 +9,7 @@
     height: 100%;
   }
   &__box {
+    position: relative;
     max-width: 1600px;
     width: 100%;
     margin: 0 auto;
@@ -60,7 +61,7 @@
     position: relative;
     margin-top: 4em;
     height: 150px;
-    // z-index: -1;
+    z-index: 0;
     
     img {
       width: 100%;
