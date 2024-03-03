@@ -43,11 +43,11 @@
   -webkit-transition: border 0.3s, background-color 0.3s;
   transition: border 0.3s, background-color 0.3s;
   cursor: pointer;
-  background-color: #F08516;
+  background-color: #f08516;
   z-index: 20;
 }
 .header__box-btn-contact--link {
-  display: block;
+  display: inline-block;
   padding: 0.5em 2em;
   width: 100%;
   height: 100%;
@@ -55,7 +55,7 @@
   text-transform: uppercase;
 }
 .header__box-btn-contact:hover {
-  border: 1px solid #F08516;
+  border: 1px solid #f08516;
   background-color: white;
 }
 .header__box-img {

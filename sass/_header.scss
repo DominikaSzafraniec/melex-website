@@ -19,7 +19,7 @@
 
   &__box-title {
     text-transform: uppercase;
-    font-family: 'Commissioner', sans-serif;
+    font-family: "Commissioner", sans-serif;
     font-size: 2.8rem;
   }
 
@@ -35,24 +35,24 @@
   }
 
   &__box-btn-contact {
-    font-family: 'Concert One', sans-serif;
+    font-family: "Concert One", sans-serif;
     border: 1px solid transparent;
-    transition: border .3s, background-color .3s;
+    transition: border 0.3s, background-color 0.3s;
     cursor: pointer;
-    background-color:  #F08516;
+    background-color: #f08516;
     z-index: 20;
-    
+
     &--link {
-      display: block;
+      display: inline-block;
       padding: 0.5em 2em;
       width: 100%;
       height: 100%;
-       font-size: 1.8rem;
-       text-transform: uppercase;
+      font-size: 1.8rem;
+      text-transform: uppercase;
     }
 
     &:hover {
-      border: 1px solid #F08516;
+      border: 1px solid #f08516;
       background-color: white;
     }
   }
@@ -62,7 +62,7 @@
     margin-top: 4em;
     height: 150px;
     z-index: 0;
-    
+
     img {
       width: 100%;
       height: 100%;
@@ -70,13 +70,13 @@
     }
 
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: rgba(0,0,0, .3);
+      background-color: rgba(0, 0, 0, 0.3);
       z-index: 0;
     }
   }
