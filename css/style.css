@@ -245,13 +245,13 @@
   z-index: 0;
 }
 .offers__box-one {
-  background-image: url("../img/offer1.jpg");
+  background-image: url("../img/offer1.webp");
 }
 .offers__box-two {
-  background-image: url("../img/offer2.jpg");
+  background-image: url("../img/offer2.webp");
 }
 .offers__box-three {
-  background-image: url("../img/offer3.jpg");
+  background-image: url("../img/offer3.webp");
 }
 .offers__shadow {
   position: absolute;
@@ -318,7 +318,7 @@
 .contact {
   position: relative;
   padding: 6em 2em;
-  background-image: url("../img/contact-small.jpg");
+  background-image: url("../img/contact-small.webp");
   background-size: cover;
   background-position: 70%;
   text-align: center;
@@ -607,7 +607,7 @@
   .header__box {
     position: relative;
     padding: 12rem 4rem;
-    background-image: url("../img/header-big.jpg");
+    background-image: url("../img/header-big.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -737,7 +737,7 @@
     padding: 12em 0 12em 6em;
     -moz-text-align-last: left;
          text-align-last: left;
-    background-image: url("../img/contact-big.jpg");
+    background-image: url("../img/contact-big.webp");
   }
   .contact::before {
     background: rgb(0, 0, 0);
