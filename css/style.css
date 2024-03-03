@@ -318,7 +318,7 @@
 .contact {
   position: relative;
   padding: 6em 2em;
-  background-image: url("../img/contact-img.jpg");
+  background-image: url("../img/contact-small.jpg");
   background-size: cover;
   background-position: 70%;
   text-align: center;
@@ -737,6 +737,7 @@
     padding: 12em 0 12em 6em;
     -moz-text-align-last: left;
          text-align-last: left;
+    background-image: url("../img/contact-big.jpg");
   }
   .contact::before {
     background: rgb(0, 0, 0);
