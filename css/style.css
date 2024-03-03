@@ -30,29 +30,26 @@
   font-size: 1.8rem;
   text-transform: uppercase;
   border: 1px solid transparent;
-  background-color: #F08516;
+  background-color: #f08516;
   -webkit-transition: border 0.3s, background-color 0.3s;
   transition: border 0.3s, background-color 0.3s;
   cursor: pointer;
   z-index: 1;
 }
 .header__box-btn-contact:hover {
-  border: 1px solid #F08516;
+  border: 1px solid #f08516;
   background-color: white;
 }
-.header__box-img {
+.header img {
   position: relative;
-  margin-top: 4em;
   height: 150px;
-  z-index: -1;
-}
-.header__box-img img {
   width: 100%;
-  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  margin-top: 4em;
+  z-index: -1;
 }
-.header__box-img::before {
+.header img::before {
   content: "";
   position: absolute;
   top: 0;
@@ -509,7 +506,7 @@
     font-size: 3.8rem;
   }
   .nav__item {
-    font-size: 4.2rem;
+    font-size: 3.2rem;
   }
   .nav__logo-link {
     cursor: pointer;
