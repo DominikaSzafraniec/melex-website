@@ -15,7 +15,7 @@
     }
 
     &__item {
-      font-size: 3rem;
+      font-size: 2.4rem;
     }
 
     &__logo-link {
@@ -124,7 +124,7 @@
     }
 
     &__item {
-      font-size: 3.2rem;
+      font-size: 2.8rem;
     }
 
     &__logo-link {
@@ -271,6 +271,7 @@
     }
 
     &__info-box {
+      align-items: flex-start;
       width: 50%;
     }
 
@@ -288,9 +289,12 @@
     }
 
     &__box-btn-contact {
-      padding: 0.5em 2.5em;
-      font-size: 2rem;
       transition: border 0.3s;
+
+      &--link {
+        font-size: 2rem;
+        padding: 0.5em 3em;
+      }
 
       &:hover {
         border: 1px solid #333;
@@ -380,7 +384,7 @@
   .contact {
     padding: 12em 0 12em 6em;
     text-align-last: left;
-    background-image: url('../img/contact-big.webp');
+    background-image: url("../img/contact-big.webp");
     &::before {
       background: rgb(0, 0, 0);
       background: linear-gradient(
@@ -401,7 +405,6 @@
 
     &__box {
       width: 50%;
-      
     }
 
     &__title {
