@@ -38,13 +38,13 @@
           align-items: center;
 }
 .header__box-btn-contact {
-  font-family: "Concert One", sans-serif;
   border: 1px solid transparent;
   -webkit-transition: border 0.3s, background-color 0.3s;
   transition: border 0.3s, background-color 0.3s;
   cursor: pointer;
   background-color: #f08516;
   z-index: 20;
+  font-weight: bold;
 }
 .header__box-btn-contact--link {
   display: inline-block;
